@@ -1,24 +1,36 @@
-.header{
-    height: 200px;
-    width: 100%;
-    background-color: #507DBC;
-    margin: 0%;
-    color: #DAE3E5;
-}   
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Splash&display=swap");
 
-footer{
-    height: 30px;
-    width: 100%;
-    background-color: #04080f;
-    color: #DAE3E5;
+* {
+  margin: 0;
+  font-family: "Poppins";
 }
 
-/*
+:root {
+  --nav-color: #06bee1;
+  --nav-font-color: #ffffff;
+}
 
-04080f - Rich Black
-507DBC - Glaucous
-A1C6EA - Baby Blue eyes
-BBD1EA - Beach Blue
-DAE3E5 - Gainsbro
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--nav-color);
+  color: var(--nav-font-color);
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  padding: 10px;
+}
 
-*/
+.nav-links {
+  display: flex;
+}
+
+.nav-links li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+}
