@@ -1,23 +1,144 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Dimantha Balasuriya</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/site.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Barlow+Semi+Condensed:wght@500;600&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Splash&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script
+      src="https://kit.fontawesome.com/d68b7f20c0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Hey, Im Dimantha</title>
   </head>
   <body>
-    <nav>
-      <div class="navbar">
-        <div class="my-name">Dimantha Balasuriya</div>
-        <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+    <div class="container">
+      <div class="nav">
+        <p>DIMANTHA</p>
+        <div class="nav-link">
+          <span class="material-symbols-outlined light-mode"> light_mode </span>
+          <span class="material-symbols-outlined dark-mode"> dark_mode </span>
+        </div>
       </div>
-    </nav>
+      <div class="content">
+        <div class="content-left">
+          <div class="project-card">
+            <span class="title">Plante</span>
+            <a href="plante.html" class="heading">
+              PLant Disease Recognition Mobile app</a
+            >
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+              asperiores voluptas similique quasi ut mollitia exercitationem
+              itaque doloremque totam illo, quisquam ab omnis aspernatur quis
+              officiis magni laboriosam placeat. Doloremque!
+            </p>
+            <div class="tech">
+              <div class="hbox"></div>
+              Java
+              <div class="mbox"></div>
+              C++
+              <div class="lbox"></div>
+              XML
+            </div>
+          </div>
+          <div class="project-card">
+            <span class="title">Oreo</span>
+            <a href="oreo.html" class="heading"> 3D Graphics Rendering tool</a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+              asperiores voluptas similique quasi ut mollitia exercitationem
+              itaque doloremque totam illo, quisquam ab omnis aspernatur quis
+              officiis magni laboriosam placeat. Doloremque!
+            </p>
+            <div class="tech">
+              <div class="hbox"></div>
+              Java
+              <div class="mbox"></div>
+              C++
+              <div class="lbox"></div>
+              XML
+            </div>
+          </div>
+          <div class="project-card">
+            <span class="title">Plante Server</span>
+            <a href="planteserver.html" class="heading">
+              Image Classification server for the plante mobile app</a
+            >
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+              asperiores voluptas similique quasi ut mollitia exercitationem
+              itaque doloremque totam illo, quisquam ab omnis aspernatur quis
+              officiis magni laboriosam placeat. Doloremque!
+            </p>
+            <div class="tech">
+              <div class="hbox"></div>
+              Java
+              <div class="mbox"></div>
+              C++
+              <div class="lbox"></div>
+              XML
+            </div>
+          </div>
+        </div>
+        <div class="content-right">
+          <div class="about">
+            <h3>Hey, Im</h3>
+            <h1>Dimantha</h1>
+            <h1>Balasuriya</h1>
+            <h4>I make things</h4>
+          </div>
+          <div class="social">
+            <i id="ig" class="fa-brands fa-instagram"></i>
+            <i id="ln" class="fa-brands fa-linkedin"></i>
+            <i id="gh" class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.getElementById("ig").addEventListener("click", redirectToIg);
+      document.getElementById("ln").addEventListener("click", redirectToLn);
+      document.getElementById("gh").addEventListener("click", redirectToGh);
 
-    <script src="js/main.js"></script>
+      function redirectToIg() {
+        window.location.href = "https://www.instagram.com/chamod_diyamantha/";
+      }
+
+      function redirectToLn() {
+        window.location.href =
+          "https://www.linkedin.com/in/dimantha-balasuriya-69048a1a7/";
+      }
+
+      function redirectToGh() {
+        window.location.href = "https://github.com/DimanthaBalasuriya";
+      }
+    </script>
   </body>
 </html>
