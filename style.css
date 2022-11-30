@@ -195,7 +195,7 @@
 
 .dcontent-left {
   flex: 70%;
-  height: 500px;
+  height: 600px;
   border: 5px solid #000000;
   box-shadow: 5px 6px;
   background-color: #fff;
@@ -248,7 +248,7 @@
 
 .dcontent-right {
   flex: 30%;
-  height: 500px;
+  height: 600px;
   border: 5px solid #000000;
   box-shadow: 5px 6px;
   background-color: #f2c94c;
